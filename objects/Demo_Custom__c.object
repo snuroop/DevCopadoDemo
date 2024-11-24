@@ -163,6 +163,7 @@
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
+
     <fields>
         <fullName>Field_One__c</fullName>
         <defaultValue>false</defaultValue>
@@ -180,6 +181,7 @@
         <unique>false</unique>
     </fields>
     <fields>
+    <fields>
         <fullName>Increment__c</fullName>
         <externalId>false</externalId>
         <label>Increment</label>
@@ -188,6 +190,14 @@
         <scale>0</scale>
         <trackTrending>false</trackTrending>
         <type>Number</type>
+     </fields>
+    <fields>
+        <fullName>Field_Three__c</fullName>
+        <externalId>false</externalId>
+        <label>Field Three</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
         <unique>false</unique>
     </fields>
     <validationRules>
